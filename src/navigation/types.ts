@@ -18,3 +18,8 @@ export type SettingsStackScreenProps = NativeStackScreenProps<
     AppStackNavigatorParamList,
     typeof Navigation.Settings
 >
+
+export type AboutStackScreenProps = NativeStackScreenProps<
+    AppStackNavigatorParamList,
+    typeof Navigation.About
+>
